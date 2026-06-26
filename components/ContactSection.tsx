@@ -26,7 +26,7 @@ export default function ContactSection() {
                 <p className="text-sm text-slate-400">Request immediate assistance or book a luxury deployment consultation.</p>
               </div>
               <Link
-                href="https://wa.me/1234567890?text=Hello%20IPTV%20Aspollo%2C%20I%20would%20like%20to%20learn%20more%20about%20your%20premium%20IPTV%20services."
+                href="https://wa.me/212771564433?text=Hello%20IPTV%20Aspollo%2C%20I%20would%20like%20to%20learn%20more%20about%20your%20premium%20IPTV%20services."
                 target="_blank"
                 rel="noreferrer"
                 className="inline-flex w-full items-center justify-center gap-2 rounded-full bg-amber-400 px-6 py-4 text-sm font-semibold text-black transition hover:brightness-105"

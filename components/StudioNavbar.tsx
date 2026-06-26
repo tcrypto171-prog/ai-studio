@@ -40,7 +40,7 @@ export default function StudioNavbar() {
           <Link href="/contact" className="rounded-full border border-white/10 bg-white/5 px-5 py-3 text-sm font-semibold text-white transition hover:border-amber-300/40 hover:bg-white/10">
             Contact
           </Link>
-          <Link href="https://wa.me/1234567890?text=Hello%20IPTV%20Aspollo" className="rounded-full bg-amber-400 px-5 py-3 text-sm font-semibold text-black transition hover:brightness-95">
+          <Link href="https://wa.me/212771564433?text=Hello%20IPTV%20Aspollo" className="rounded-full bg-amber-400 px-5 py-3 text-sm font-semibold text-black transition hover:brightness-95">
             WhatsApp
           </Link>
         </div>
@@ -64,7 +64,7 @@ export default function StudioNavbar() {
                 {item.label}
               </Link>
             ))}
-            <Link href="https://wa.me/1234567890?text=Hello%20IPTV%20Aspollo" className="rounded-2xl bg-amber-400 px-4 py-3 text-sm font-semibold text-black text-center">
+            <Link href="https://wa.me/212771564433?text=Hello%20IPTV%20Aspollo" className="rounded-2xl bg-amber-400 px-4 py-3 text-sm font-semibold text-black text-center">
               WhatsApp
             </Link>
           </div>
