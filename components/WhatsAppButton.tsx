@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 
-const whatsappNumber = process.env.NEXT_PUBLIC_WHATSAPP_NUMBER || "1234567890";
+const whatsappNumber = process.env.NEXT_PUBLIC_WHATSAPP_NUMBER || "212771564433";
 
 export function buildWhatsAppLink(packageName: string, duration: string, price: string) {
   const text = `Hello IPTVASPOLLO team,%0AI am interested in the ${packageName} (${duration}) for ${price}.%0A%0APlease send me the activation details and any setup information.%0A%0AThank you!`;
