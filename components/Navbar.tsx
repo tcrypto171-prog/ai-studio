@@ -15,6 +15,7 @@ import {
   X,
   ChevronRight,
   Sparkles,
+  ShieldCheck,
 } from "lucide-react";
 
 const navItems = [
@@ -24,6 +25,7 @@ const navItems = [
   { label: "Devices", href: "/#devices", icon: Tv },
   { label: "FAQ", href: "/faq", icon: HelpCircle },
   { label: "Contact", href: "/contact", icon: Mail },
+  { label: "Portal", href: "/portal", icon: ShieldCheck },
   { label: "Login", href: "/login", icon: LogIn },
 ];
 
