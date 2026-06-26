@@ -15,5 +15,5 @@ Please send me the payment instructions and activation details.
 
 Thank you!`;
 
-  return `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(text)}`;
+  return `https://wa.me/${212771564433}?text=${encodeURIComponent(text)}`;
 }
