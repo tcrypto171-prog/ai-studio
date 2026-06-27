@@ -55,7 +55,7 @@ export default function HeroSection() {
             <div className="relative">
               <div className="relative overflow-visible p-0">
                 <div />
-                <div className="relative z-10 flex items-center justify-center py-6">
+                <div className="relative z-10 flex items-center justify-center py-6 w-full">
   <motion.div
     whileHover={{
       scale: 1.04,
@@ -69,7 +69,7 @@ export default function HeroSection() {
     <div className="absolute -inset-10 -z-10 rounded-full bg-amber-400/25 blur-[100px]" />
 
     <Image
-  src="/images/hero-tv-v2.png"
+  src="/images/hero-tv-v4.png"
   alt="TV"
   width={1200}
   height={900}
