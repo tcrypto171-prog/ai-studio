@@ -16,7 +16,7 @@ export default function ContactSection() {
             <div className="space-y-4">
               <div>
                 <p className="text-sm uppercase tracking-[0.32em] text-slate-400">Support line</p>
-                <p className="mt-3 text-2xl font-semibold text-white">+1 800 518 7019</p>
+                <p className="mt-3 text-2xl font-semibold text-white">+212 771 564 433</p>
               </div>
               <div>
                 <p className="text-sm uppercase tracking-[0.32em] text-slate-400">Email</p>

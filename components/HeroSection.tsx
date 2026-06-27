@@ -1,5 +1,5 @@
 "use client";
-
+import Image from "next/image";
 import Link from "next/link";
 import { motion } from "framer-motion";
 
@@ -52,16 +52,31 @@ export default function HeroSection() {
           </div>
 
           <motion.div initial={{ opacity: 0, scale: 0.96, y: 20 }} animate={{ opacity: 1, scale: 1, y: 0 }} transition={{ duration: 0.9, ease: [0.22, 1, 0.36, 1] }} className="relative">
-            <div className="rounded-[36px] border border-white/10 bg-[#08090a] p-1 shadow-[0_50px_120px_rgba(0,0,0,0.45)] backdrop-blur-3xl">
-              <div className="relative overflow-hidden rounded-[32px] bg-gradient-to-br from-slate-950 via-slate-900 to-[#06070a] p-8">
-                <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_left,_rgba(56,189,248,0.12),_transparent_25%),radial-gradient(circle_at_bottom_right,_rgba(236,72,153,0.12),_transparent_30%)]" />
-                <div className="relative z-10 grid gap-6 text-center text-white">
-                  <div className="mx-auto h-36 w-36 rounded-full bg-gradient-to-br from-amber-400/20 to-transparent border border-amber-300/20 shadow-[0_0_80px_rgba(255,184,0,0.18)]" />
-                  <div>
-                    <p className="text-lg font-semibold">Exclusive visual preview</p>
-                    <p className="mt-2 text-sm text-slate-400">A premium hero mockup with cinematic lighting and polished glass effects.</p>
-                  </div>
-                </div>
+            <div className="relative">
+              <div className="relative overflow-visible p-0">
+                <div />
+                <div className="relative z-10 flex items-center justify-center py-6">
+  <motion.div
+    whileHover={{
+      scale: 1.04,
+      rotateY: 6,
+      rotateX: -3,
+    }}
+    transition={{ duration: 0.4 }}
+    className="relative"
+    style={{ transformStyle: "preserve-3d" }}
+  >
+    <div className="absolute -inset-10 -z-10 rounded-full bg-amber-400/25 blur-[100px]" />
+
+    <Image
+  src="/images/hero-tv-v2.png"
+  alt="TV"
+  width={1200}
+  height={900}
+  priority
+/>
+  </motion.div>
+</div>
               </div>
             </div>
 
