@@ -137,46 +137,28 @@ export default function Footer() {
 
         <div className="mt-14 border-t border-white/10 pt-8">
 
+<h3 className="mb-6 text-center text-sm font-semibold uppercase tracking-[0.25em] text-amber-400">
+  Secure Payment Methods
+</h3>
+          <div className="mt-6 flex flex-wrap items-center justify-center gap-4">
 
-          <div className="flex flex-wrap gap-3">
+  <span className="rounded-xl border border-amber-400/30 bg-amber-400/10 px-5 py-2 text-sm font-semibold text-amber-400 transition-all duration-300 hover:border-amber-300 hover:bg-amber-400 hover:text-black">
+    Visa
+  </span>
 
-            <span className="rounded-lg bg-white/10 px-4 py-2">
-              Visa
-            </span>
+  <span className="rounded-xl border border-amber-400/30 bg-amber-400/10 px-5 py-2 text-sm font-semibold text-amber-400 transition-all duration-300 hover:border-amber-300 hover:bg-amber-400 hover:text-black">
+    Mastercard
+  </span>
 
-            <span className="rounded-lg bg-white/10 px-4 py-2">
-              Mastercard
-            </span>
+  <span className="rounded-xl border border-amber-400/30 bg-amber-400/10 px-5 py-2 text-sm font-semibold text-amber-400 transition-all duration-300 hover:border-amber-300 hover:bg-amber-400 hover:text-black">
+    PayPal
+  </span>
 
-            <span className="rounded-lg bg-white/10 px-4 py-2">
-              PayPal
-            </span>
+  <span className="rounded-xl border border-amber-400/30 bg-amber-400/10 px-5 py-2 text-sm font-semibold text-amber-400 transition-all duration-300 hover:border-amber-300 hover:bg-amber-400 hover:text-black">
+    Crypto
+  </span>
 
-            <span className="rounded-lg bg-white/10 px-4 py-2">
-              Crypto
-            </span>
-
-          </div>
-
-
-
-      
-
-
-
-          <button
-            onClick={() =>
-              window.scrollTo({
-                top: 0,
-                behavior: "smooth",
-              })
-            }
-            className="mt-6 rounded-full border border-white/20 px-5 py-2 hover:border-amber-400 hover:text-amber-400"
-          >
-            Back To Top ↑
-          </button>
-
-
+</div>
 
           <p className="mt-10 text-center text-xs text-slate-500">
             © {new Date().getFullYear()} IPTV Apollo. All rights reserved.
