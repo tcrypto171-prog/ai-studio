@@ -3,8 +3,7 @@ import Link from "next/link";
 
 export default function Footer() {
   return (
-    <footer className="relative overflow-hidden border-t border-white/10 bg-black px-6 py-16 text-slate-300">
-
+    <footer className="relative overflow-hidden border-t border-white/10 bg-black px-6 pt-16 pb-5 text-slate-300">
       <div className="absolute left-20 top-0 h-64 w-64 rounded-full bg-amber-500/20 blur-[120px]" />
       <div className="absolute right-20 bottom-0 h-64 w-64 rounded-full bg-yellow-400/10 blur-[120px]" />
 
@@ -159,8 +158,7 @@ export default function Footer() {
   </span>
 
 </div>
-
-          <p className="mt-10 text-center text-xs text-slate-500">
+          <p className="mt-6 text-center text-xs text-slate-500">
             © {new Date().getFullYear()} IPTV Apollo. All rights reserved.
           </p>
 
