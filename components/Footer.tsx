@@ -135,12 +135,12 @@ export default function Footer() {
 
         {/* Bottom */}
 
-        <div className="mt-14 border-t border-white/10 pt-8">
+        <div className="mt-8 border-t border-white/10 pt-5">
 
 <h3 className="mb-6 text-center text-sm font-semibold uppercase tracking-[0.25em] text-amber-400">
   Secure Payment Methods
 </h3>
-          <div className="mt-6 flex flex-wrap items-center justify-center gap-4">
+          <div className="mt-6 flex flex-wrap items-center justify-center gap-3">
 
   <span className="rounded-xl border border-amber-400/30 bg-amber-400/10 px-5 py-2 text-sm font-semibold text-amber-400 transition-all duration-300 hover:border-amber-300 hover:bg-amber-400 hover:text-black">
     Visa
