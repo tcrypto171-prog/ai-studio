@@ -160,25 +160,7 @@ export default function Footer() {
 
 
 
-          <div className="mt-6 flex gap-5 text-sm">
-
-            <a href="#" className="hover:text-amber-400 transition">
-  Telegram
-</a>
-
-<a href="#" className="hover:text-amber-400 transition">
-  Facebook
-</a>
-
-<a href="#" className="hover:text-amber-400 transition">
-  Instagram
-</a>
-
-<a href="#" className="hover:text-amber-400 transition">
-  X
-</a>
-
-          </div>
+      
 
 
 
