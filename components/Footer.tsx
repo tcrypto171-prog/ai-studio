@@ -1,3 +1,4 @@
+"use client";
 import Link from "next/link";
 
 export default function Footer() {
@@ -69,21 +70,21 @@ export default function Footer() {
 
             <div className="space-y-3">
 
-              <Link className="block hover:text-amber-400" href="#">
-                Privacy Policy
-              </Link>
+              <Link className="block hover:text-amber-400 transition" href="/privacy-policy">
+  Privacy Policy
+</Link>
 
-              <Link className="block hover:text-amber-400" href="#">
-                Refund Policy
-              </Link>
+<Link className="block hover:text-amber-400 transition" href="/refund-policy">
+  Refund Policy
+</Link>
 
-              <Link className="block hover:text-amber-400" href="#">
-                Terms & Conditions
-              </Link>
+<Link className="block hover:text-amber-400 transition" href="/terms-and-conditions">
+  Terms & Conditions
+</Link>
 
-              <Link className="block hover:text-amber-400" href="#">
-                Disclaimer
-              </Link>
+<Link className="block hover:text-amber-400 transition" href="/disclaimer">
+  Disclaimer
+</Link>
 
             </div>
 
@@ -101,17 +102,25 @@ export default function Footer() {
 
             <div className="space-y-3">
 
-              <p className="hover:text-amber-400">
-                WhatsApp
-              </p>
+              <a
+  href="https://wa.me/212771564433"
+  target="_blank"
+  rel="noreferrer"
+  className="block hover:text-amber-400 transition"
+>
+  WhatsApp
+</a>
 
-              <p className="hover:text-amber-400">
-                Email
-              </p>
+<a
+  href="mailto:hello@iptvaspollo.com"
+  className="block hover:text-amber-400 transition"
+>
+  hello@iptvaspollo.com
+</a>
 
-              <p className="text-amber-400">
-                24/7 VIP Support
-              </p>
+<p className="text-amber-400 font-medium">
+  24/7 VIP Support
+</p>
 
             </div>
 
@@ -153,10 +162,21 @@ export default function Footer() {
 
           <div className="mt-6 flex gap-5 text-sm">
 
-            <span>Telegram</span>
-            <span>Facebook</span>
-            <span>Instagram</span>
-            <span>X</span>
+            <a href="#" className="hover:text-amber-400 transition">
+  Telegram
+</a>
+
+<a href="#" className="hover:text-amber-400 transition">
+  Facebook
+</a>
+
+<a href="#" className="hover:text-amber-400 transition">
+  Instagram
+</a>
+
+<a href="#" className="hover:text-amber-400 transition">
+  X
+</a>
 
           </div>
 
