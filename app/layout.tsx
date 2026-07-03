@@ -13,9 +13,70 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "IPTV Apollo",
-  description: "Premium IPTV subscription service with modern streaming, channel packages, and dashboard insights.",
-  metadataBase: new URL("https://iptvapollo.example"),
+  metadataBase: new URL("https://iptvaspollo.com"),
+
+  title: {
+    default: "IPTV Apollo | Premium IPTV Subscription",
+    template: "%s | IPTV Apollo",
+  },
+
+  description:
+    "Enjoy premium IPTV subscriptions with thousands of live TV channels, sports, movies, TV series, and 4K streaming. Fast activation, secure payment, and 24/7 VIP support.",
+
+  keywords: [
+    "IPTV",
+    "Premium IPTV",
+    "Best IPTV",
+    "IPTV Subscription",
+    "4K IPTV",
+    "Live TV",
+    "Sports IPTV",
+    "Movies IPTV",
+    "TV Series",
+    "Smart TV IPTV",
+    "Firestick IPTV",
+    "Android IPTV",
+    "Worldwide IPTV",
+    "IPTV Apollo",
+  ],
+
+  authors: [
+    {
+      name: "IPTV Apollo",
+    },
+  ],
+
+  creator: "IPTV Apollo",
+
+  publisher: "IPTV Apollo",
+
+  robots: {
+    index: true,
+    follow: true,
+  },
+
+  openGraph: {
+    type: "website",
+    locale: "en_US",
+    url: "https://iptvapollo.com",
+    title: "IPTV Apollo | Premium IPTV Subscription",
+    description:
+      "Premium IPTV subscriptions with worldwide live TV channels, sports, movies, TV series, 4K streaming and 24/7 VIP support.",
+    siteName: "IPTV Apollo",
+  },
+
+  twitter: {
+    card: "summary_large_image",
+    title: "IPTV Apollo | Premium IPTV Subscription",
+    description:
+      "Watch thousands of live TV channels, sports, movies and TV series in stunning 4K quality.",
+  },
+
+  icons: {
+    icon: "/favicon.ico",
+    shortcut: "/favicon.ico",
+    apple: "/apple-touch-icon.png",
+  },
 };
 
 export default function RootLayout({
@@ -28,7 +89,9 @@ export default function RootLayout({
       lang="en"
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
-      <body className="min-h-full bg-slate-950 text-slate-100">{children}</body>
+      <body className="min-h-full bg-slate-950 text-slate-100">
+        {children}
+      </body>
     </html>
   );
 }
