@@ -59,7 +59,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://iptvapollo.com",
+    url: "https://iptvaspollo.com",
     title: "IPTV Apollo | Premium IPTV Subscription",
     description:
       "Premium IPTV subscriptions with worldwide live TV channels, sports, movies, TV series, 4K streaming and 24/7 VIP support.",
@@ -91,6 +91,7 @@ export default function RootLayout({
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
       <body className="min-h-full bg-slate-950 text-slate-100">
+        <GoogleTagManager gtmId="GTM-5R4ZT3H9" />
         {children}
       </body>
     </html>
