@@ -1,7 +1,7 @@
 import type { MetadataRoute } from "next";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = "https://iptvaspollo.vercel.app";
+  const baseUrl = "https://iptvaspollo.com";
 
   return [
     {
