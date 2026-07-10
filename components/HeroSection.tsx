@@ -19,14 +19,14 @@ export default function HeroSection() {
             <motion.div initial={{ opacity: 0, y: 32 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.9, ease: [0.22, 1, 0.36, 1] }}>
               <div className="inline-flex items-center gap-3 rounded-full border border-amber-400/20 bg-amber-400/10 px-4 py-2 text-sm font-semibold uppercase tracking-[0.32em] text-amber-200 backdrop-blur-sm">
                 <span className="inline-flex h-2.5 w-2.5 rounded-full bg-amber-400" />
-                Premium IPTV for luxury homes
+                Best Premium IPTV Subscription 2026
               </div>
               <h1 className="mt-8 text-5xl font-black leading-tight tracking-[-0.04em] text-white sm:text-6xl lg:text-7xl">
-                Elevate your streaming experience to cinematic luxury.
-              </h1>
-              <p className="mt-6 max-w-xl text-xl leading-9 text-slate-300 sm:text-2xl">
-                IPTV Aspollo blends immersive global channels, ultra-low latency, and white-glove onboarding for a polished viewing experience on every screen.
-              </p>
+Best Premium IPTV Subscription 2026 – 35,000+ Live TV Channels, Movies & Sports in 4K
+</h1>
+              <h1 className="mt-8 text-5xl font-black leading-tight tracking-[-0.04em] text-white sm:text-6xl lg:text-7xl">
+Best Premium IPTV Subscription 2026 – 35,000+ Live TV Channels, Movies & Sports in 4K
+</h1>
 
               <div className="mt-10 flex flex-col gap-4 sm:flex-row sm:items-center">
                 <Link href="#pricing" className="inline-flex items-center justify-center rounded-full bg-amber-400 px-7 py-4 text-sm font-semibold uppercase tracking-[0.18em] text-black transition hover:brightness-105" aria-label="Select your pass">
@@ -39,9 +39,9 @@ export default function HeroSection() {
 
               <div className="mt-12 grid gap-4 sm:grid-cols-3">
                 {[
-                  "24/7 VIP support",
-                  "Cinematic 4K playback",
-                  "Global channel coverage",
+                  "35,000+ Live Channels",
+                  "150,000+ Movies & Series",
+                  "4K Sports & PPV Events",
                 ].map((item) => (
                   <div key={item} className="rounded-3xl border border-white/10 bg-white/5 px-5 py-4 text-sm text-slate-300 backdrop-blur-xl">
                     {item}
@@ -82,9 +82,9 @@ export default function HeroSection() {
 
             <div className="mt-6 grid grid-cols-3 gap-4 text-center text-sm text-slate-400 sm:grid-cols-3">
               {[
-                { label: "Apple TV", value: "Native app" },
+                { label: "Apple TV", value: "Full Support" },
                 { label: "Firestick", value: "Instant setup" },
-                { label: "Smart TVs", value: "High performance" },
+                { label: "Android & iOS ", value: "Easy Installation" },
               ].map((item) => (
                 <div key={item.label} className="rounded-3xl border border-white/10 bg-white/5 px-4 py-4 backdrop-blur-xl">
                   <p className="font-semibold text-white">{item.label}</p>
