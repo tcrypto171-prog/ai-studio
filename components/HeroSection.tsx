@@ -24,10 +24,6 @@ export default function HeroSection() {
               <h1 className="mt-8 text-5xl font-black leading-tight tracking-[-0.04em] text-white sm:text-6xl lg:text-7xl">
 Best Premium IPTV Subscription 2026 – 35,000+ Live TV Channels, Movies & Sports in 4K
 </h1>
-              <h1 className="mt-8 text-5xl font-black leading-tight tracking-[-0.04em] text-white sm:text-6xl lg:text-7xl">
-Best Premium IPTV Subscription 2026 – 35,000+ Live TV Channels, Movies & Sports in 4K
-</h1>
-
               <div className="mt-10 flex flex-col gap-4 sm:flex-row sm:items-center">
                 <Link href="#pricing" className="inline-flex items-center justify-center rounded-full bg-amber-400 px-7 py-4 text-sm font-semibold uppercase tracking-[0.18em] text-black transition hover:brightness-105" aria-label="Select your pass">
                   Select your pass
@@ -84,7 +80,7 @@ Best Premium IPTV Subscription 2026 – 35,000+ Live TV Channels, Movies & Sport
               {[
                 { label: "Apple TV", value: "Full Support" },
                 { label: "Firestick", value: "Instant setup" },
-                { label: "Android & iOS ", value: "Easy Installation" },
+                { label: "Android & iOS ", value: "Easy Installation " },
               ].map((item) => (
                 <div key={item.label} className="rounded-3xl border border-white/10 bg-white/5 px-4 py-4 backdrop-blur-xl">
                   <p className="font-semibold text-white">{item.label}</p>
