@@ -40,15 +40,15 @@ export default function Footer() {
                 Experience
               </Link>
 
-              <Link className="block hover:text-amber-400" href="#pricing">
+              <Link className="block hover:text-amber-400" href="/#pricing">
                 Pricing
               </Link>
 
-              <Link className="block hover:text-amber-400" href="#faq">
+              <Link className="block hover:text-amber-400" href="/#faq">
                 FAQ
               </Link>
 
-              <Link className="block hover:text-amber-400" href="#contact">
+              <Link className="block hover:text-amber-400" href="/#contact">
                 Contact
               </Link>
 
