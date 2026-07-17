@@ -1,3 +1,4 @@
+"use client";
 import {
   cardHover,
   buttonHover,
@@ -5,8 +6,6 @@ import {
   glow,
   pulse,
 } from "@/lib/ui/animations";
-
-"use client";
 
 import { motion } from "framer-motion";
 import { Check, ArrowRight } from "lucide-react";
