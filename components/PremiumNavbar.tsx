@@ -14,12 +14,22 @@ export default function PremiumNavbar() {
               IPTV ASPOLLO
             </Link>
             <nav className="hidden md:flex items-center gap-6 text-sm text-slate-300">
-              <Link href="#experience" className="hover:text-white transition">Experience</Link>
-              <Link href="#pricing" className="hover:text-white transition">Pricing</Link>
-              <Link href="#comparison" className="hover:text-white transition">Compare</Link>
-              <Link href="#faq" className="hover:text-white transition">FAQ</Link>
-              <Link href="#contact" className="hover:text-white transition">Contact</Link>
-            </nav>
+  <Link href="/" className="hover:text-white transition">
+    Home
+  </Link>
+
+  <Link href="/pricing" className="hover:text-white transition">
+    Pricing
+  </Link>
+
+  <Link href="/faq" className="hover:text-white transition">
+    FAQ
+  </Link>
+
+  <Link href="/contact" className="hover:text-white transition">
+    Contact
+  </Link>
+</nav>
           </div>
 
           <div className="flex items-center gap-4">
@@ -37,13 +47,35 @@ export default function PremiumNavbar() {
 
         {open && (
           <div className="mt-3 md:hidden">
-            <nav className="flex flex-col gap-2 px-2 pb-4 text-white">
-              <Link href="#experience" className="px-3 py-2 rounded-md hover:bg-white/5">Experience</Link>
-              <Link href="#pricing" className="px-3 py-2 rounded-md hover:bg-white/5">Pricing</Link>
-              <Link href="#comparison" className="px-3 py-2 rounded-md hover:bg-white/5">Compare</Link>
-              <Link href="#faq" className="px-3 py-2 rounded-md hover:bg-white/5">FAQ</Link>
-              <Link href="#contact" className="px-3 py-2 rounded-md hover:bg-white/5">Contact</Link>
-            </nav>
+           <nav className="flex flex-col gap-2 px-2 pb-4 text-white">
+  <Link
+    href="/"
+    className="rounded-md px-3 py-2 hover:bg-white/5"
+  >
+    Home
+  </Link>
+
+  <Link
+    href="/pricing"
+    className="rounded-md px-3 py-2 hover:bg-white/5"
+  >
+    Pricing
+  </Link>
+
+  <Link
+    href="/faq"
+    className="rounded-md px-3 py-2 hover:bg-white/5"
+  >
+    FAQ
+  </Link>
+
+  <Link
+    href="/contact"
+    className="rounded-md px-3 py-2 hover:bg-white/5"
+  >
+    Contact
+  </Link>
+</nav>
           </div>
         )}
       </div>
