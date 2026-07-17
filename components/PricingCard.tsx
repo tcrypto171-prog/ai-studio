@@ -1,3 +1,11 @@
+import {
+  cardHover,
+  buttonHover,
+  fadeUp,
+  glow,
+  pulse,
+} from "@/lib/ui/animations";
+
 "use client";
 
 import { motion } from "framer-motion";
@@ -22,11 +30,12 @@ export default function PricingCard({
 }: PricingCardProps) {
   return (
     <motion.div
-      initial={{ opacity: 0, y: 40 }}
-      whileInView={{ opacity: 1, y: 0 }}
-      viewport={{ once: true, amount: 0.2 }}
-      whileHover={{ y: -12, scale: 1.03 }}
-      transition={{ duration: 0.4, ease: "easeOut" }}
+      variants={fadeUp}
+initial="hidden"
+whileInView="visible"
+viewport={{ once: true, amount: 0.2 }}
+      whileHover={{ y: -6, scale: 1.02 }}
+      transition={{ duration: 0.18, ease: "easeOut" }}
       className={`group relative overflow-hidden rounded-2xl border p-8 shadow-xl transition-all duration-300 backdrop-blur-sm ${
         featured
           ? "border-cyan-400/40 bg-gradient-to-br from-cyan-500/15 to-purple-500/10 shadow-cyan-500/25 ring-1 ring-cyan-400/20"
@@ -75,8 +84,8 @@ export default function PricingCard({
 
         {/* CTA Button */}
         <motion.button
-          whileHover={{ scale: 1.04 }}
-          whileTap={{ scale: 0.98 }}
+          whileHover={{ scale: 1.02 }}
+          whileTap={{ scale: 0.15 }}
           className={`mb-8 flex w-full items-center justify-center gap-2 rounded-xl px-6 py-3 text-sm font-semibold transition-all duration-300 ${
             featured
               ? "bg-gradient-to-r from-cyan-400 to-blue-400 text-slate-950 shadow-lg shadow-cyan-400/30 hover:shadow-cyan-400/50"
@@ -87,7 +96,7 @@ export default function PricingCard({
           <motion.span
             initial={{ x: 0 }}
             whileHover={{ x: 4 }}
-            transition={{ type: "spring", stiffness: 400 }}
+            transition={{ duration: 0.15, }}
           >
             <ArrowRight className="h-4 w-4" />
           </motion.span>
