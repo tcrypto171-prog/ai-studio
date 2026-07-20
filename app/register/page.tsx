@@ -1,12 +1,12 @@
+import PremiumNavbar from "../../components/PremiumNavbar";
 import Footer from "../../components/Footer";
 import FormField from "../../components/FormField";
-import Navbar from "../../components/Navbar";
 import Link from "next/link";
 
 export default function RegisterPage() {
   return (
     <div className="min-h-screen bg-slate-950 text-slate-100">
-      <Navbar />
+      <PremiumNavbar />
       <main className="mx-auto min-h-screen max-w-[1600px] md:pl-[280px]">
         <section className="px-6 py-20 sm:px-10 md:px-12 lg:px-16">
           <div className="mx-auto max-w-5xl grid gap-16 lg:grid-cols-[1.1fr_0.9fr] lg:items-center">

@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { ArrowLeft, ChevronRight, PlayCircle } from "lucide-react";
-import PremiumNavbar from "../../../../components/PremiumNavbar";
+import PremiumNavbar from "@/components/PremiumNavbar";
 import Footer from "../../../../components/Footer";
 
 const guides = {

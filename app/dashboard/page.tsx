@@ -1,13 +1,13 @@
 "use client";
 import Footer from "../../components/Footer";
 import DashboardCard from "../../components/DashboardCard";
-import Navbar from "../../components/Navbar";
+import PremiumNavbar from "../../components/PremiumNavbar";
 import { dashboardStats, userSubscriptions } from "../../lib/content";
 
 export default function DashboardPage() {
   return (
     <div className="min-h-screen bg-slate-950 text-slate-100">
-      <Navbar />
+      <PremiumNavbar />
       <main className="mx-auto min-h-screen max-w-[1600px] md:pl-[280px]">
         <section className="px-6 py-20 sm:px-10 md:px-12 lg:px-16">
           <div className="mx-auto max-w-6xl space-y-10">
